@@ -29,7 +29,7 @@ class Solution:
         while length3>0:
             a=number4%10
             result1.append(a)
-            number4=int(number4/10)
+            number4=number4//10#或者用number4=int(number4/10)
             length3=length3-1
         return result1
 
